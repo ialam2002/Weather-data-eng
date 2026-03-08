@@ -106,12 +106,4 @@ Development notes and next steps
 - Consider adding a `Makefile` or small wrapper scripts to simplify dbt and Airflow commands.
 - Add CI checks for dbt tests and linting for Python code.
 
-Contributing
-
-Contributions are welcome. Please open issues or PRs describing proposed changes.
-
-License
-
-This project does not currently include a license file. If you want to open-source it, add a `LICENSE` file at the repo root.
-
 
