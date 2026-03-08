@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: dev
+    database: db
+    tables:
+      - name: raw_weather_data
+        description: "This table contains raw weather data ingested from the API."
+        columns:
+          - name: id
+          - name: city
+            description: "The name of the city for which the weather data was collected."
+          - name: temperature
+            description: "The temperature in Celsius at the time of data collection."
+          - name: weather_descriptions
+            description: "A brief description of the weather conditions (e.g., 'clear sky', 'rainy')."
+          - name: wind_speed
+          - name: time
+          - name: inserted_at
+          - name: utc_offset
